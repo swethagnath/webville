@@ -1,0 +1,12 @@
+
+* Starting application
+  npm install 
+  start server 
+    - npm run server
+    - default port 5000
+    - http://localhost:5000
+  start Mongodb
+    - mongod
+
+* for api
+   please find the postman collection attached.
