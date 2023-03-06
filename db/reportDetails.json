@@ -1,0 +1,116 @@
+[
+    {
+        "_id": "1",
+        "reportName": "Report-2",
+        "reportShortName": "rpt-1",
+        "reportCode": "RPT_REPORT_CODE_1",
+        "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere",
+        "parameters": [
+            {
+                "parameterName": "Scheme Number",
+                "dataType": "string",
+                "order": "1",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "false",
+                "regexValidation": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}"
+            },
+            {
+                "parameterName": "effectiveDate",
+                "dataType": "Date",
+                "order": "2",
+                "dependency": "1",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}"
+            },
+            {
+                "parameterName": "Paypoint Number",
+                "dataType": "string",
+                "order": "3",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}/{paypoint-number"
+            }
+        ]
+    },
+    {
+        "_id": "2",
+        "reportName": "Report-2",
+        "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere",
+        "reportShortName": "rpt-2",
+        "reportCode": "RPT_REPORT_CODE_2",
+        "parameters": [
+            {
+                "parameterName": "Scheme Number",
+                "dataType": "string",
+                "order": "1",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "false",
+                "regexValidation": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}"
+            },
+            {
+                "parameterName": "effectiveDate",
+                "dataType": "Date",
+                "order": "2",
+                "dependency": "1",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}"
+            },
+            {
+                "parameterName": "Paypoint Number",
+                "dataType": "string",
+                "order": "3",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}/{paypoint-number"
+            }
+        ]
+    },
+    {
+        "_id": "3",
+        "reportName": "Report-3",
+        "reportShortName": "rpt-3",
+        "desc": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nulla facere",
+        "reportCode": "RPT_REPORT_CODE_3",
+        "parameters": [
+            {
+                "parameterName": "Scheme Number",
+                "dataType": "string",
+                "order": "1",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "false",
+                "regexValidation": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}"
+            },
+            {
+                "parameterName": "effectiveDate",
+                "dataType": "Date",
+                "order": "2",
+                "dependency": "1",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}"
+            },
+            {
+                "parameterName": "Paypoint Number",
+                "dataType": "string",
+                "order": "3",
+                "isMandatory": true,
+                "isOptional": false,
+                "callApi": "true",
+                "apiEndPoint": "api.api.com/{schemenumber}/{paypoint-number"
+            }
+        ]
+    }
+]

@@ -1,2 +1,1 @@
-module.exports.adminController = require('./admin.controller')
-module.exports.customerController = require('./customer.controller')
+module.exports.reportController = require('./report.controller')
